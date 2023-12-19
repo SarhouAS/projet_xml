@@ -1,0 +1,35 @@
+@import url(reset.css);
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab:wght@100;200;300&display=swap');
+
+  :root{
+    --bgcolor_all:#2d3436;
+    --color-text-header: #fff;
+  }
+header h1{
+    line-height: 6.0rem;
+    text-align: center;
+    color:  var(--color-text-header);
+    background-color: var(--bgcolor_all);
+    margin-bottom: 5rem;
+    padding: 1rem 0;
+}
+
+/* gallery primary */
+ul.primary-grid{
+    display: grid;
+    max-width: 100rem;
+    margin: 0 auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    background-color: #fafafa;
+    padding: 1rem;
+    box-shadow: 0 0 2rem var(--bgcolor_all);
+}
+img{
+    width: 100%;
+    height: 30rem;
+}
+footer{
+    text-align: center;
+    line-height: 6rem;
+}
